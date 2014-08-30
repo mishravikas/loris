@@ -1,0 +1,121 @@
+# =============================== LORIS v1.0 ==============================
+# PPIs Prediction by LORIS
+# Copyrights (c) 2013 ABC Lab @ BITS, Pilani - K.K. Birla Goa Campus, India
+# All Rights Reserved.
+# Sat, 30-Aug-2014, 04:45:37
+# File name: Sample_1.vloris
+# PRED  Pos	Class	Name	E/I/B
+  PRED  5	-	V       B
+  PRED  6	-	H       I
+  PRED  7	-	F       B
+  PRED  8	-	I       I
+  PRED  9	-	N       I
+  PRED  10	+	R       E
+  PRED  11	+	D       E
+  PRED  12	-	G       E
+  PRED  13	-	E       E
+  PRED  14	-	T       E
+  PRED  15	-	L       I
+  PRED  16	-	T       E
+  PRED  17	-	T       I
+  PRED  18	-	K       E
+  PRED  19	-	G       B
+  PRED  20	-	K       E
+  PRED  21	-	I       E
+  PRED  22	+	G       E
+  PRED  23	-	D       I
+  PRED  24	-	S       B
+  PRED  25	-	L       B
+  PRED  26	-	L       B
+  PRED  27	+	D       E
+  PRED  28	-	V       B
+  PRED  29	-	V       B
+  PRED  30	-	V       E
+  PRED  31	+	Q       E
+  PRED  32	+	N       E
+  PRED  33	+	N       E
+  PRED  34	-	L       I
+  PRED  35	+	D       E
+  PRED  36	-	I       B
+  PRED  37	+	D       E
+  PRED  38	+	G       E
+  PRED  39	+	F       I
+  PRED  40	-	G       I
+  PRED  41	+	A       E
+  PRED  42	-	C       I
+  PRED  43	+	E       E
+  PRED  44	-	G       E
+  PRED  45	+	T       E
+  PRED  46	+	L       I
+  PRED  47	+	A       E
+  PRED  48	-	C       I
+  PRED  49	-	S       I
+  PRED  50	+	T       E
+  PRED  51	-	C       B
+  PRED  52	-	H       I
+  PRED  53	-	L       B
+  PRED  54	-	I       I
+  PRED  55	-	F       B
+  PRED  56	-	E       I
+  PRED  57	+	Q       E
+  PRED  58	-	H       E
+  PRED  59	+	I       I
+  PRED  60	+	F       I
+  PRED  61	+	E       E
+  PRED  62	+	K       E
+  PRED  63	-	L       I
+  PRED  64	+	E       E
+  PRED  65	+	A       E
+  PRED  66	-	I       I
+  PRED  67	+	T       E
+  PRED  68	+	D       E
+  PRED  69	+	E       E
+  PRED  70	-	E       B
+  PRED  71	+	N       E
+  PRED  72	+	D       E
+  PRED  73	+	M       I
+  PRED  74	-	L       B
+  PRED  75	+	D       E
+  PRED  76	+	L       E
+  PRED  77	-	A       I
+  PRED  78	+	Y       E
+  PRED  79	+	G       E
+  PRED  80	+	L       E
+  PRED  81	+	T       E
+  PRED  82	+	D       E
+  PRED  83	+	R       I
+  PRED  84	-	S       B
+  PRED  85	+	R       I
+  PRED  86	-	L       B
+  PRED  87	-	G       B
+  PRED  88	-	C       B
+  PRED  89	-	Q       I
+  PRED  90	-	I       B
+  PRED  91	-	C       E
+  PRED  92	-	L       B
+  PRED  93	-	T       E
+  PRED  94	+	K       E
+  PRED  95	+	A       E
+  PRED  96	-	M       B
+  PRED  97	+	D       E
+  PRED  98	-	N       E
+  PRED  99	-	M       B
+  PRED  100	-	T       I
+  PRED  101	-	V       B
+  PRED  102	+	R       E
+  PRED  103	-	V       I
+  PRED  104	-	P       I
+  PRED  105	+	D       E
+  PRED  106	+	A       E
+  PRED  107	-	V       I
+  PRED  108	+	S       E
+  PRED  109	+	D       E
+#
+#  Column 1: Record Name
+#  Column 2: Residue Number
+#  Column 3: + = Interface & - = Non-Interface
+#  Column 4: Residue Name(1 letter code)
+#  Column 5: E = Exposed Residue, I = Intermediate Residue and B = Buried Residue
+#
+#  END OF FILE
+#

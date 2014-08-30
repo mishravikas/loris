@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LORIS</title>
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="/static/css/style1.css" rel="stylesheet" type="text/css"/>	
+	</head>
+
+	<body>
+		<!-- List of uploaded documents -->
+		<!-- {% if documents %}
+			<ul>
+			{% for document in documents %}
+				<li><a href="{{ document.docfile.url }}">{{ document.docfile.name }}</a></li>
+			{% endfor %}
+			</ul>
+		{% else %}
+			<p>No documents.</p>
+		{% endif %} -->
+
+		<!-- Upload form. Note enctype attribute! -->
+		
+
+		<div class="container">
+		<form action="{% url "list" %}" method="post" enctype="multipart/form-data">
+			{% csrf_token %}
+			<p>{{ form.non_field_errors }}</p>
+			<p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
+			<p>
+				{{ form.docfile.errors }}
+				{{ form.docfile }}
+			</p>
+			<p>{{ form.docfile2.label_tag }} {{ form.docfile2.help_text }}</p>
+			<p>
+				{{ form.docfile2.errors }}
+				{{ form.docfile2 }}
+			</p>
+			<p><input type="submit" value="Upload" /></p>
+		</form>
+		</div>
+		
+	</body>
+	<!-- <div id="footer">
+<footer>Developed by Vikas Mishra</footer>
+</div>
+ -->
+</html> 
