@@ -3,12 +3,16 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.http import HttpResponseRedirect,HttpResponse
 from django.core.urlresolvers import reverse
+from django.conf import settings
 
 from myproject.myapp.models import Document
 from myproject.myapp.forms import DocumentForm
 import os
 import zipfile
 import StringIO
+
+PROJECT_ROOT = getattr(settings, "PROJECT_ROOT", None)
+
 
 def list(request):
     # Handle file upload
@@ -36,7 +40,8 @@ def list(request):
             # response = HttpResponse(fsock, mimetype='text/plain')
             # response['Content-Disposition'] = "attachment; filename=%s.hloris" %name1
             # return response
-            filenames = ["/home/vikas/dev/loris/LORIS/Output/%s.hloris" %name1, "/home/vikas/dev/loris/LORIS/Output/%s.vloris" %name1]
+            # filenames = ["/home/vikas/dev/loris/LORIS/Output/%s.hloris" %name1, "/home/vikas/dev/loris/LORIS/Output/%s.vloris" %name1]
+            filenames = ["%s/../../Output/%s.hloris" %(PROJECT_ROOT,name1), "%s/../../Output/%s.vloris" %(PROJECT_ROOT,name1)]
 
             # Folder name in ZIP archive which contains the above files
             # E.g [thearchive.zip]/somefiles/file2.txt
